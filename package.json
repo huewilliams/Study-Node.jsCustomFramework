@@ -1,0 +1,20 @@
+{
+  "name": "CustomWebFramework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha $(find ./ -name \"*.spec.js\")",
+    "start": "node bin.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^6.2.2",
+    "should": "^13.2.3"
+  },
+  "dependencies": {
+    "sinon": "^8.0.2"
+  }
+}
