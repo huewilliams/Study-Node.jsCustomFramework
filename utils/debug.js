@@ -5,7 +5,7 @@ const colors = [
     {name: 'green',    value: '\x1b[32m'},
     {name: 'magenta',  value: '\x1b[35m'},
   ]
-  const resetColor = '\x1b[0m'
+const resetColor = '\x1b[0m'
 
 const debug = (tag, color) => {
     if(!tag) throw Error('tag should be required.');
